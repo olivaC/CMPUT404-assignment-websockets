@@ -23,6 +23,8 @@ Resources
 - https://stackoverflow.com/questions/13081532/return-json-response-from-flask-view
 - https://greenlet.readthedocs.io/en/latest/
 - https://github.com/abramhindle/WebSocketsExamples/blob/master/chat.py
+- https://stackoverflow.com/a/5737136
+    - For loop
 
 Contributors / Licensing
 ========================
