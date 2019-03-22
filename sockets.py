@@ -83,7 +83,14 @@ clients = list()
 
 
 def set_listener(entity, data):
-    ''' do something with the update ! '''
+    listen_dict = {
+        entity: data
+    }
+    json_listen_str = json.dumps(listen_dict)
+    if clients:
+        for i in clients:
+            # Add entity data to client queue
+            i.put(json_listen_str)
 
 
 myWorld.add_set_listener(set_listener)
