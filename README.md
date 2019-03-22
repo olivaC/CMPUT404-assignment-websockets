@@ -17,6 +17,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Resources
+=========
+- https://github.com/olivaC/CMPUT404-assignment-ajax
+- https://stackoverflow.com/questions/13081532/return-json-response-from-flask-view
+- https://greenlet.readthedocs.io/en/latest/
+- https://github.com/abramhindle/WebSocketsExamples/blob/master/chat.py
+
 Contributors / Licensing
 ========================
 
@@ -26,7 +33,7 @@ freetests.py is LICENSE'D under a BSD-like license:
 
 From ws4py
 
-Copyright (c) 2011-2014, Sylvain Hellegouarch, Abram Hindle
+Copyright (c) 2011-2019, Sylvain Hellegouarch, Abram Hindle, Carlo Oliva
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -59,3 +66,4 @@ Contributors
 * Mark Galloway
 * Abram Hindle
 * Cole Mackenzie
+* Carlo Oliva
